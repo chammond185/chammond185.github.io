@@ -1,0 +1,56 @@
+body {
+	color:#050315;
+	background-color:#fbfbfe;
+	font-family: Arial;
+	text-align: center;
+}
+header {
+	color:#050315;
+	background-color:#ce2727;
+	background-repeat: no-repeat;
+	line-height: 500%;
+	text-align: center;
+}
+nav {
+	background-color:#ffdcdc;
+	font-weight: bold;
+	text-align: center;
+}
+nav a {
+		text-decoration: none;
+}
+h1 {
+	margin-bottom:0;
+	font-family: Georgia;
+}
+h2 {
+	color:#7b2423;
+	font-family: Georgia;
+}
+footer {
+		text-align: center;
+		font-style: italic;
+		font-family: Times New Roman;
+		font-size: 75%;
+}
+.3banner-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.banner-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+.wrapper {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+#contact {
+	font-size: 90%;
+}
