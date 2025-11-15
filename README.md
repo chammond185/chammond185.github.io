@@ -1,2 +1,2 @@
 # chammond185.github.io
-'This repository contains files for CIS300 Project Assignments.'
+'This repository contains files for my CIS300 final project. My website, SplatterFest, is a site dedicated to horror media. The site will contain pages for movies & tv, games, books, and a newsletter subscription. The intention of the site is to be an aggregate for horror news and reviews, but to be free of industry bias. While the site is currently sparse, in it's completed form it will be easy to use through simple scrolling and clicking.'
