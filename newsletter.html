@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href="splatter.css" rel="stylesheet">
+			<title>Splatter Fest</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Splatter Fest</h1>
+			</header>
+			<nav>
+				<a href="index.html">Home</a> &nbsp;
+				<a href="movies.html">Movies & TV</a> &nbsp;
+				Games &nbsp;
+				Books&nbsp;
+				<a href="newsletter.html">Newsletter</a>&nbsp;
+			</nav>
+			<main>
+				<h2>Splatter Fest Newsletter</h2>
+				<h3>Sign Up Today!</h3>
+					<p>Required fields are marked with an asterisk *.</p>
+						<form action="https://webdevbasics.net/scripts/pacific.php" method="post">
+							<label for="myFName">*First Name:</label>
+							<input type="text" name="myFName" id="myFName" required>
+							<label for="myLName">*Last Name:</label>
+							<input type="text" name="myLName" id="myLName" required>
+							<label for="myEmail">*E-mail:</label>
+							<input type="text" name="myEmail" id="myEmail" required>
+							<label for="myPreferences">Interests:</label>
+							<input type="checkbox" name="Movies & TV" id="myPreferences" value="yes"> Movies & TV<br>
+							<input type="checkbox" name="Games" id="myPreferences" value="yes"> Games<br>
+							<input type="checkbox" name="Books" id="myPreferences" value="yes"> Books<br>
+							<input type="checkbox" name="All" id="myPreferences" value="yes"> All<br>	
+							<select size="1" name="frequency" id="frequency">
+								<option>Select frequency of updates</option>
+								<option value="Daily">Daily</option>
+								<option value="Weekly">Weekly</option>
+								<option value="Monthly">Monthly</option>
+							</select>							
+						</form>
+			</main>
+			<footer>
+				<br>
+				Copyright &copy; 2025 Splatter Fest<br>
+				<a href="mailto:splatter@fest.com">splatter@fest.com</a>
+			</footer>
+		</div>
+	</body>
+</html>
