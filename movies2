@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href="splatter.css" rel="stylesheet">
+			<title>Splatter Fest</title>
+		<meta charset="utf-8">
+		<meta name="description" content="This page features upcoming December horror movie releases.">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<a href='./index.html'><h1>Splatter Fest</h1></a>
+			</header>
+			<nav>
+				<a href="index.html">Home</a> &nbsp;
+				<a href="movies.html">Movies & TV</a> &nbsp;
+				<a href="books.html">Books</a>&nbsp;
+				<a href="newsletter.html">Newsletter</a>&nbsp;
+			</nav>
+			<main>
+				<h2>Upcoming December Horror Movies</h2>
+					<p>Just because spooky season is over doesn't mean that the scary movies have slowed down! Check out the table below to see upcoming horror movies that will keep the scares coming til the new year.</p>
+					<p>By the way - if you click the name of the movie, you'll be taken to the Rotten Tomatoes page for more information.</p>
+					<br>
+				<table>
+						<tr>
+							<th>Movie</th>
+							<th>Release Date</th>
+							<th>Director</th>
+							<th>Studio</th>
+						</tr>
+						<tr>
+							<td><a href="https://www.rottentomatoes.com/m/five_nights_at_freddys_2" target="_blank" rel="noopener noreferrer">Five Night's at Freddy's 2</a></td>
+							<td class="text">12/05/2025</td>
+							<td>Emma Tammi</td>
+							<td>Blumhouse</td>
+						</tr>
+						<tr>
+							<td><a href="https://www.rottentomatoes.com/m/silent_night_deadly_night_2025" target="_blank" rel="noopener noreferrer">Silent Night, Deadly Night</a></td>
+							<td class="text">12/12/2025</td>
+							<td>Mike P. Nelson</td>
+							<td>Cineverse</td>
+						</tr>
+						<tr>
+							<td><a href="https://www.rottentomatoes.com/m/dust_bunny" target="_blank" rel="noopener noreferrer">Dust Bunny</a></td>
+							<td class="text">12/12/2025</td>
+							<td>Bryan Fuller</td>
+							<td>Lionsgate</td>
+						</tr>
+					</table>
+			</main>
+			<footer>
+				<br>
+				Copyright &copy; 2025 Splatter Fest<br>
+				<a href="mailto:splatter@fest.com">splatter@fest.com</a>
+			</footer>
+		</div>
+	</body>
+</html>
