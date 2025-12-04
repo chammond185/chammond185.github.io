@@ -4,41 +4,45 @@
 		<link href="splatter.css" rel="stylesheet">
 			<title>Splatter Fest</title>
 		<meta charset="utf-8">
+		<meta name="description" content="This page features a form for subscribing to the SplatterFest newsletter.">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header>
-				<h1>Splatter Fest</h1>
+				<a href='./index.html'><h1>Splatter Fest</h1></a>
 			</header>
 			<nav>
 				<a href="index.html">Home</a> &nbsp;
 				<a href="movies.html">Movies & TV</a> &nbsp;
-				Games &nbsp;
-				Books&nbsp;
+				<a href="books.html">Books</a>&nbsp;
 				<a href="newsletter.html">Newsletter</a>&nbsp;
 			</nav>
 			<main>
 				<h2>Splatter Fest Newsletter</h2>
 				<h3>Sign Up Today!</h3>
 					<p>Required fields are marked with an asterisk *.</p>
-						<form action="https://webdevbasics.net/scripts/pacific.php" method="post">
+						<form action="#" method="post">
 							<label for="myFName">*First Name:</label>
 							<input type="text" name="myFName" id="myFName" required>
 							<label for="myLName">*Last Name:</label>
 							<input type="text" name="myLName" id="myLName" required>
 							<label for="myEmail">*E-mail:</label>
 							<input type="text" name="myEmail" id="myEmail" required>
-							<label for="myPreferences">Interests:</label>
-							<input type="checkbox" name="Movies & TV" id="myPreferences" value="yes"> Movies & TV<br>
-							<input type="checkbox" name="Games" id="myPreferences" value="yes"> Games<br>
-							<input type="checkbox" name="Books" id="myPreferences" value="yes"> Books<br>
-							<input type="checkbox" name="All" id="myPreferences" value="yes"> All<br>	
+							<fieldset class="newsletter-checkboxes" aria-label="Interests">
+								<legend>Interests:</legend>
+								<label for="pref-movies"><input type="checkbox" name="preferences[]" id="pref-movies" value="Movies"> Movies &amp; TV</label>
+								<label for="pref-games"><input type="checkbox" name="preferences[]" id="pref-games" value="Games"> Games</label>
+								<label for="pref-books"><input type="checkbox" name="preferences[]" id="pref-books" value="Books"> Books</label>
+								<label for="pref-all"><input type="checkbox" name="preferences[]" id="pref-all" value="All"> All</label>
+							</fieldset>
 							<select size="1" name="frequency" id="frequency">
 								<option>Select frequency of updates</option>
 								<option value="Daily">Daily</option>
 								<option value="Weekly">Weekly</option>
 								<option value="Monthly">Monthly</option>
-							</select>							
+							</select>
+							<br>
+							<input type="submit" value="Submit">							
 						</form>
 			</main>
 			<footer>
